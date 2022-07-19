@@ -1,0 +1,89 @@
+    1  git init
+    2  ls -al
+    3  ls git
+    4  ls .git
+    5  touch file1
+    6  git status
+    7  git add file1
+    8  git status
+    9  git commit -m "file1"
+   10  git status
+   11  git commit -m "file!"
+   12  git commit -m "file1"
+   13  git status
+   14  git log
+   15  touch file2
+   16  git status
+   17  git add file2
+   18  git status
+   19  git restore --staged file2
+   20  git status
+   21  git commit -m "committed" file2
+   22  ls
+   23  touch file1
+   24  git init
+   25  git config --global user.email "jagadeeshearamani@gmail.com"
+   26  git config --
+   27  git config --global user.name "jagadeeshearamani777"
+   28  git commit -m "first commit"
+   29  git add *
+   30  git commit -m "first commit"
+   31  git branch -M main
+   32  git remote add origin https://github.com/jagadeeshearamani777/Data_Demo.git
+   33  git push -u origin main
+   34  ls
+   35  code .
+   36  touch app.py
+   37  touch test.py
+   38  touch .gitignore
+   39  git init
+   40  git status
+   41  ls
+   42  ls -al
+   43  git status
+   44  git add *
+   45  git status
+   46  git checkout -b kalyani
+   47  git commit -m "kalyani files"
+   48  git remote add origin https://github.com/jagadeeshearamani777/Jagadeesh-GIT.git
+   49  git push -u origin kalyani
+   50  git checkout -b main
+   51  git branch
+   52  git status
+   53  git status
+   54  git checkout -b jagadeesh
+   55  git status
+   56  git add *
+   57  git status
+   58  git commit -m "jagadeesh"
+   59  git push -u origin
+   60  git push -u origi jagadeesh
+   61  git push -u origin jagadeesh
+   62  git pull origin jagadeesh
+   63  git add*
+   64  git add *
+   65  git status
+   66  git commit
+   67  git log
+   68  git push -u origin jagadeesh
+   69  history
+   70  git checkout jagadeesh
+   71  touch naveen.txt
+   72  ls -al
+   73  git checkout main
+   74  git checkout kalyani
+   75  ll
+   76  git add *
+   77  git commit -m "m"
+   78  git log
+   79  git status
+   80  git checkout jagadeesh
+   81  git checkout kalyani
+   82  ll
+   83  git checkout naveen
+   84  git checkout jagadeesh
+   85  git log
+   86  git checkout kalyani
+   87  rm -r naveen.txt
+   88  history
+   89  history > commands.txt
